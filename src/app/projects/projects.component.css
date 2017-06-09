@@ -1,16 +1,8 @@
-﻿/*.foto {
-  width: 100px;
-  margin: 0 auto;
-}
-.header{
-  padding: 10px;
-  margin-bottom: 5px;
-  
-}*/
+﻿
 .avatar {
   width: 60px;
   height: 60px;
-  background-image: url('../../assets/tymek_foto.jpg');
+  background-image: url('../../assets/video.png');
   background-size: cover;
   background-position-y: -10px;
 }
@@ -18,11 +10,15 @@
 .skills {
   display: inline-block;
   width: 47%;
-
+ 
 }
 
 .bars2 {
   display: none;
+}
+
+.items {
+  margin-left: 20px;
 }
 
 @media (max-width: 768px) {
@@ -47,5 +43,9 @@
   .bars2 {
     display: block;
     width: 95%;
+  }
+
+  .items {
+    margin-left: 5px;
   }
 }

@@ -3,8 +3,11 @@
 }
 
 .item {
-  width: 75%;
+  width: 50%;
   display: inline-block;
+  margin-left: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .avatar {
@@ -18,8 +21,7 @@
 
 @media (max-width: 425px) {
   .avatar {
-    width: 60px;
-    height: 60px;
+    display: none;
   }
 
   .avatar-box {
@@ -27,8 +29,30 @@
   }
 
   .item {
-    text-align: justify;
     width: 100%;
-    text-justify: inter-word;
+    margin-left: 0;
+  }
+
+  .about-container {
+    height: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .avatar {
+    display:none;
+  }
+
+  .avatar-box {
+    display: none;
+  }
+
+  .item {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .about-container {
+    height: 100%;
   }
 }

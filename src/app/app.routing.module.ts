@@ -11,7 +11,7 @@ const routes: Routes = [
     { path: 'about-me', component: AboutMeComponent },
     { path: 'projects', component: ProjectsComponent },
     { path: 'contact', component: ContactComponent },
-    { path: '', redirectTo: '/list', pathMatch: 'full' },
+    { path: '', redirectTo: '/tymoteusz-klocek', pathMatch: 'full' },
     { path: '**', component: AboutMeComponent }
 ];
 
