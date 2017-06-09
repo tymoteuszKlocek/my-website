@@ -1,0 +1,14 @@
+﻿<md-card class="container" *ngFor="let skill of skills">
+  <md-card-content>
+    <h2 >{{skill.name}}</h2>
+
+    <section class="example-section">
+      <md-progress-bar class="example-margin"
+                       [color]="color"
+                       [mode]="mode"
+                       [value]="skill.value"
+                       [bufferValue]="0">
+      </md-progress-bar>
+    </section>
+  </md-card-content>
+</md-card>

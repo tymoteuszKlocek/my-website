@@ -1,0 +1,51 @@
+﻿/*.foto {
+  width: 100px;
+  margin: 0 auto;
+}
+.header{
+  padding: 10px;
+  margin-bottom: 5px;
+  
+}*/
+.avatar {
+  width: 60px;
+  height: 60px;
+  background-image: url('../../assets/tymek_foto.jpg');
+  background-size: cover;
+  background-position-y: -10px;
+}
+
+.skills {
+  display: inline-block;
+  width: 47%;
+
+}
+
+.bars2 {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .skills {
+    width: 45%;
+  }
+  .bars2 {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .skills {
+    display: block;
+    width:100%;
+  }
+
+  #bars {
+    display: none;
+  }
+
+  .bars2 {
+    display: block;
+    width: 95%;
+  }
+}

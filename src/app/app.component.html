@@ -1,0 +1,20 @@
+﻿<nav md-tab-nav-bar>
+  <a md-tab-link
+     *ngFor="let link of navLinks"
+     [routerLink]="link.url"
+     routerLinkActive #rla="routerLinkActive"
+     [active]="rla.isActive"
+     (click)="addNewTask()">
+    {{link.label}}
+  </a>
+</nav>
+<router-outlet></router-outlet>
+
+<md-toolbar id="footer" fxLayout="row" fxLayoutAlign="center center">
+  <div>
+    <p>mobile: 0048 728-562-464 </p>
+    <p>email: tymoteusz.klocek@gmail.com </p>
+    <p> Tymoteusz Klocek 2017 &copy; </p>
+    <p><a href="wp.pl">resume</a> in PDF </p>
+  </div>
+</md-toolbar>
