@@ -1,10 +1,15 @@
 ﻿
-.avatar {
-  width: 60px;
-  height: 60px;
-  background-image: url('../../assets/video.png');
-  background-size: cover;
-  background-position-y: -10px;
+.picture {
+  width: 160px;
+  height: 110px;
+  margin-right: 10px;
+
+  /*background-image: url('../../assets/video.png');*/
+ 
+}
+
+.title {
+  font-size: 20px;
 }
 
 .skills {
