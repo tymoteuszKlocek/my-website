@@ -3,19 +3,10 @@
   width: 160px;
   height: 110px;
   margin-right: 10px;
-
-  /*background-image: url('../../assets/video.png');*/
- 
 }
 
 .title {
   font-size: 20px;
-}
-
-.skills {
-  display: inline-block;
-  width: 47%;
- 
 }
 
 .bars2 {
@@ -26,10 +17,7 @@
   margin-left: 20px;
 }
 
-@media (max-width: 768px) {
-  .skills {
-    width: 45%;
-  }
+/*@media (max-width: 768px) {
   .bars2 {
     display: none;
   }
@@ -53,4 +41,4 @@
   .items {
     margin-left: 5px;
   }
-}
+}*/

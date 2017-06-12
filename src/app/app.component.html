@@ -1,20 +1,29 @@
-﻿<nav md-tab-nav-bar>
+﻿<nav md-tab-nav-bar class="tabs">
   <a md-tab-link
      *ngFor="let link of navLinks"
-     [routerLink]="link.url"
-     routerLinkActive #rla="routerLinkActive"
-     [active]="rla.isActive"
-     (click)="addNewTask()">
+     [routerLink]="link.url">
     {{link.label}}
   </a>
+</nav>
+
+<nav class="menu">
+  <button md-icon-button [mdMenuTriggerFor]="menu">Menu
+  </button>
+  <md-menu #menu="mdMenu">
+    <button *ngFor="let link of navLinks"
+            md-menu-item
+            [routerLink]="link.url">
+      <span>{{link.label}}</span>
+    </button>
+  </md-menu>
 </nav>
 <router-outlet></router-outlet>
 
 <md-toolbar id="footer" fxLayout="row" fxLayoutAlign="center center">
   <div>
+    <p> Tymoteusz Klocek 2017 &copy; </p>
     <p>mobile: 0048 728-562-464 </p>
     <p>email: tymoteusz.klocek@gmail.com </p>
-    <p> Tymoteusz Klocek 2017 &copy; </p>
-    <p><a href="http://tymoteusz.xyz/assets/tymoteuszklocekCV.pdf">resume</a> in PDF </p>
+    <p><a href="http://tymoteusz.xyz/assets/CV%20Tymoteusz%20Klocek.pdf">resume</a> in PDF </p>
   </div>
 </md-toolbar>

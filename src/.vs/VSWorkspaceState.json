@@ -4,8 +4,10 @@
     "\\app",
     "\\app\\about-me",
     "\\app\\contact",
-    "\\app\\skills"
+    "\\app\\projects",
+    "\\app\\skills",
+    "\\app\\welcome"
   ],
-  "SelectedNode": "\\app\\app.component.html",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }

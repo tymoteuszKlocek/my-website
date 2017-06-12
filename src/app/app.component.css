@@ -1,6 +1,25 @@
-﻿#footer {
+﻿.tabs {
+  display: block;
+}
+
+.menu {
+  display: none;
+}
+
+
+#footer {
   height: 200px;
   bottom: 0px;
   font-size: 12px;
 }
 
+@media (max-width: 425px) {
+  .tabs {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+}

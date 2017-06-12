@@ -5,14 +5,15 @@
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
     title = '';
 
     navLinks = [
-        {
-            label: 'Tymoteusz Klocek',
-            url: "/tymoteusz-klocek"
-        },
+        //{
+        //    label: 'Tymoteusz Klocek',
+        //    url: "/tymoteusz-klocek"
+        //},
         {
             label: 'About Me',
             url: "/about-me"
@@ -20,6 +21,14 @@ export class AppComponent {
         {
             label: 'Projects',
             url: "/projects"
+        },
+{
+            label: 'Skills',
+            url: "/skills"
+        },
+        {
+            label: 'Contact',
+            url: "/contact"
         },
         
     ];
