@@ -2,6 +2,11 @@
   display: block;
 }
 
+.menu-btn {
+  padding-left: 20px;
+  font-size: 16px;
+}
+
 .menu {
   display: none;
 }

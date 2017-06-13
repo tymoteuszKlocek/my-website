@@ -12,11 +12,11 @@ export class SkillsComponent implements OnInit {
     mode = 'determinate';
     skills = [
         {
-            value: 45,
-            name: 'Angular'
+            value: 50,
+            name: 'Angular (4)'
         }, {
             value: 50,
-            name: 'Java Script (Type Script)'
+            name: 'JavaScript (TypeScript)'
         }, {
             value: 65,
             name: 'Angular Material'
@@ -24,11 +24,11 @@ export class SkillsComponent implements OnInit {
             value: 70,
             name: 'HTML 5'
         }, {
-            value: 55,
+            value: 60,
             name: 'CSS'
         }, {
             value: 45,
-            name: 'GIT (Source Tree)'
+            name: 'GIT (SourceTree)'
         },
     ];
 

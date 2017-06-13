@@ -1,25 +1,12 @@
-﻿.container {
-  height: 100vh;
-}
-
-/*.section {
-  padding-right: 40px;
-}*/
-
-.info {
+﻿.info {
   display: inline-block;
   width: 49%;
   vertical-align: middle;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .info {
     display: block;
     width: 99%;
   }
-
-  .container {
-    height: 150vh;
-  }
-
 }

@@ -1,12 +1,18 @@
 ﻿<md-card class="container">
   <div class="info">
+    <h3>Skills and duties:</h3>
+    <p>Development of SIO – System Informacji Oświatowej - for Ministerstwo Edukacji Narodowej - app development, unit tests.</p>
+    <p><b>Technologies: Angular 4, ngrx, rxjs, Karma, Jasmine, Webpack (Angular CLI)</b></p>
+    <p>Development and maintenance of CRM - Code refactoring, creating new components, e2e tests.
+    <p><b>Technologies: Angular JS, Jasmine, Protractor, Gulp</b></p>
     <p>
-      I mostly work in Angular, Angular Material and Java Script but I have some practice in HTML/CSS and
-      I am opened to other framewors (React, etc).
+      I mostly work in Angular and JavaScript / TypeScript, Angular Material but I have practice in HTML5/CSS, Bootstrap, Gulp,
+      Webpack, Redux (ngrx), and Observables (rxjs).
+      I am opened to other frameworks (ReactJS etc).
     </p>
   </div>
   <div class="info">
-    <md-card  *ngFor="let skill of skills">
+    <md-card *ngFor="let skill of skills">
       <md-card-content class="section">
         <h2>{{skill.name}}</h2>
         <section>

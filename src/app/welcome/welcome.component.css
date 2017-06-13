@@ -5,7 +5,7 @@
   height: 100%;
   background-image: url('../../assets/back2.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 
 a {
@@ -24,13 +24,13 @@ a {
 
 @media (max-width: 768px) {
   .container {
-    background-size: inherit;
+    background-size: cover;
   }
 }
 
 @media (max-width: 425px) {
   .container {
-    background-size: inherit;
+    background-size: cover;
   }
 
   .name-box {
